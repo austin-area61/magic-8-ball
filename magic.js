@@ -37,9 +37,6 @@ switch(randomNumber) {
     break;
 }
 
-<<<<<<< HEAD
-console.log(`The Magic Eight Ball says: ${eightBall}`);
-=======
 console.log(`The Magic Eight Ball says: ${eightBall}`);
 
 //else if alternate statements.
@@ -75,4 +72,3 @@ if (randomNumber === 0) {
 
 console.log(`The Magic Eight Ball says: ${eightBall}`);
 */
->>>>>>> 9eab25ad3809878fb89d51da0a9cacaff7a474b8
