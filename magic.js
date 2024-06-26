@@ -1,5 +1,5 @@
 let userName = ""; // User can enter their name here if they wish
-let userQuestion = "Will I get a promotion this year?"; // Example question, replace with the user's question
+let userQuestion = "Will I have a bright future?"; // Example question, replace with the user's question
 
 console.log(userName ? `${userName} asked: ${userQuestion}` : `The user asked: ${userQuestion}`);
 
