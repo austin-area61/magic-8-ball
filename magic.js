@@ -3,7 +3,7 @@ let userQuestion = "Will I have a bright future?"; // Example question, replace 
 
 console.log(userName ? `${userName} asked: ${userQuestion}` : `The user asked: ${userQuestion}`);
 
-let randomNumber = Math.floor(Math.random() * 8);
+let randomNumber = Math.floor(Math.random() * 9);
 
 let eightBall = '';
 
@@ -31,6 +31,9 @@ switch(randomNumber) {
     break;
   case 7:
     eightBall = 'Signs point to yes';
+    break;
+  case 8:
+    eightBall = 'Absolutely';
     break;
 }
 
